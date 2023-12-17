@@ -2,7 +2,8 @@ import userModel from "../models/user.js";
 import Auth from "../common/auth.js";
 import sendEmail from "../common/sendMail.js";
 import Token from "../models/token.js";
-import Randomstring from "randomstring";
+import randomstring from 'randomstring';
+
 
 const getUserById = async (req, res) => {
   try {

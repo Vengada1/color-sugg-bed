@@ -1,6 +1,6 @@
-import express from "express";
-import UserRoutes from "./user.js";
+import express from 'express';
 const router = express.Router();
+import UserRoutes from "./user.js";
 
 router.get("/", (req, res) => {
   res.status(200).send(`

@@ -1,5 +1,5 @@
-import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
+import bcrypt from 'bcryptjs';
 
 const hashPassword = async (password) => {
   let salt = await bcrypt.genSalt(Number(process.env.SALT_ROUNDS));
