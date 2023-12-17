@@ -8,6 +8,3 @@ node_modules/
 *.log
 *.sqlite
 
-# Ignore environment-specific configuration files
-.env
-.env.local
