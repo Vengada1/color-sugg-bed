@@ -13,4 +13,4 @@ app.use(cors());
 app.use(express.json());
 app.use('/',AppRoutes);
 
-app.listen(PORT,()=>console.log(`App is listening ${PORT}`));
+app.listen(PORT,()=>console.log(`App is listening ${PORT}`));//success
